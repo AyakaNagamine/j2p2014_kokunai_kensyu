@@ -20,7 +20,7 @@ public class Test01 extends Applet {
 		// TODO Auto-generated method stub
 		g.drawString("•¶š‚ğ•\¦", 10, 10);
 	
-	}
+	}//Às‚·‚é‚ÆŒx¨–³‹‚µ‚Ä‚æ‚¢
 
 	
 	
