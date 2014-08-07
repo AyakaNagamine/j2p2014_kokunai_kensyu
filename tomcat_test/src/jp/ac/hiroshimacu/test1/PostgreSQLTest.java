@@ -40,7 +40,7 @@ public class PostgreSQLTest extends HttpServlet {
 		ResultSet rs = null;
 		try {
 			  Class.forName("org.postgresql.Driver").newInstance();
-			  conn = DriverManager.getConnection("jdbc:postgresql://localhost/testdb?user=postgres&password=2$32e4");
+			  conn = DriverManager.getConnection("jdbc:postgresql://localhost/testdb?user=postgres&password=password");
 			  stmt = conn.createStatement();
 			  rs = stmt.executeQuery("SELECT id,name FROM test");
 					  
