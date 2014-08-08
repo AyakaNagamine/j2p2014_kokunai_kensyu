@@ -9,7 +9,8 @@ public class Test10 extends Applet implements MouseMotionListener {
 	public void init(){
 		Grp = getGraphics();
 		addMouseMotionListener(this);
-		add(btnRed = new Button("ê‘§"));
+		add(btnRed = new Button("ê‘"));
+		add(btnRed = new Button("çï"));
 	}
 	public void mouseDragged(MouseEvent e) {
 		Grp.drawLine(gx,gy,e.getX(),e.getY());gx = e.getX();gy = e.getY();
@@ -18,8 +19,11 @@ public class Test10 extends Applet implements MouseMotionListener {
 		gx = e.getX();	gy = e.getY();
 	}
 	public boolean action(Event e,Object o){
-		if(o.equals("ê‘§")) {
+		if(o.equals("ê‘")) {
 			Grp.setColor(new Color(255,0,0));
+		}
+		if(o.equals("çï")) {
+			Grp.setColor(new Color(0,0,0));
 		}
 		return true;
 	}
