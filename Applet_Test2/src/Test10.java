@@ -22,7 +22,7 @@ public class Test10 extends Applet implements MouseMotionListener {
 		if(o.equals("ê‘")) {
 			Grp.setColor(new Color(255,0,0));
 		}
-		if(o.equals("çï")) {
+		else if(o.equals("çï")) {
 			Grp.setColor(new Color(0,0,0));
 		}
 		return true;
